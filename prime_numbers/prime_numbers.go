@@ -1,3 +1,7 @@
+//
+// Search prime numbers
+//
+
 package main
 
 import (
@@ -15,7 +19,7 @@ func main() {
     for i := 2; i <= low/2; i++ {
       if low % i == 0 {
         flag = 1
-	break
+        break
       }
     }
     
