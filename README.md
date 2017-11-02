@@ -2,7 +2,7 @@
 
 hello sample
 ```
-$ so run helloworld/helloworld.go
+$ go run helloworld/helloworld.go
 Hello, World!
 ```
 
