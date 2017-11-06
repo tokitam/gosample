@@ -1,5 +1,18 @@
 # gosample
 
+ex...
+```
+$ export GOPATH=$HOME/your_working_dir/
+$ cd $GOPATH
+$ mkdir -p src/github.com/tokitam/
+$ cd github.com/tokitam/
+$ git clone git@github.com:tokitam/gosample.git
+$ go install src/github.com/tokitam/gosample/helloworld/
+$ bin/helloworld
+Hello, World!
+```
+
+
 hello sample
 ```
 $ go run helloworld/helloworld.go
