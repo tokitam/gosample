@@ -5,9 +5,9 @@ ex...
 $ export GOPATH=$HOME/your_working_dir/
 $ cd $GOPATH
 $ mkdir -p src/github.com/tokitam/
-$ cd github.com/tokitam/
+$ cd src/github.com/tokitam/
 $ git clone git@github.com:tokitam/gosample.git
-$ go install src/github.com/tokitam/gosample/helloworld/
+$ go install github.com/tokitam/gosample/helloworld/
 $ bin/helloworld
 Hello, World!
 ```
