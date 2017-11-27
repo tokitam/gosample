@@ -1,6 +1,6 @@
 # gosample
 
-ex...
+ex... / 環境構築
 ```
 $ export GOPATH=$HOME/your_working_dir/
 $ cd $GOPATH
@@ -13,13 +13,13 @@ Hello, World!
 ```
 
 
-hello sample
+hello sample / Hello, world サンプル
 ```
 $ go run helloworld/helloworld.go
 Hello, World!
 ```
 
-search prime number
+search prime number / 素数を探すサンプル
 ```
 $ go run prime_numbers/prime_numbers.go
 2
