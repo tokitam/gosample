@@ -8,6 +8,7 @@ $ mkdir -p src/github.com/tokitam/
 $ cd src/github.com/tokitam/
 $ git clone git@github.com:tokitam/gosample.git
 $ go install github.com/tokitam/gosample/helloworld/
+$ cd $GOPATH
 $ bin/helloworld
 Hello, World!
 ```
